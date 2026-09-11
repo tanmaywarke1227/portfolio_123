@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "project": {
+    "name": "portfolio",
+    "productType": null,
+    "stack": [
+      "nextjs",
+      "react",
+      "tailwind-v4"
+    ]
+  },
+  "sources": {
+    "tokens": [
+      "src/app/globals.css"
+    ],
+    "components": [],
+    "assets": [
+      "public/images"
+    ],
+    "instructions": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ]
+  },
+  "design": {
+    "colorMode": "dark",
+    "colors": {
+      "--background": {
+        "value": "#050505",
+        "source": "src/app/globals.css"
+      },
+      "--background-subtle": {
+        "value": "#0a0a0a",
+        "source": "src/app/globals.css"
+      },
+      "--foreground": {
+        "value": "#f5f5f5",
+        "source": "src/app/globals.css"
+      },
+      "--foreground-muted": {
+        "value": "#c0c0c8",
+        "source": "src/app/globals.css"
+      },
+      "--foreground-dim": {
+        "value": "#9898a3",
+        "source": "src/app/globals.css"
+      },
+      "--accent-cyan": {
+        "value": "#06b6d4",
+        "source": "src/app/globals.css"
+      },
+      "--accent-violet": {
+        "value": "#8b5cf6",
+        "source": "src/app/globals.css"
+      },
+      "--accent-silver": {
+        "value": "#cbd5e1",
+        "source": "src/app/globals.css"
+      },
+      "--border-subtle": {
+        "value": "rgba(255, 255, 255, 0.06)",
+        "source": "src/app/globals.css"
+      },
+      "--border-accent": {
+        "value": "rgba(6, 182, 212, 0.2)",
+        "source": "src/app/globals.css"
+      }
+    },
+    "typography": {
+      "--font-display": {
+        "value": "\"Space Grotesk\", \"Inter\", system-ui, sans-serif",
+        "source": "src/app/globals.css"
+      },
+      "--font-body": {
+        "value": "\"Inter\", system-ui, sans-serif",
+        "source": "src/app/globals.css"
+      }
+    },
+    "spacing": {
+      "--section-gap": {
+        "value": "clamp(100px, 12vh, 160px)",
+        "source": "src/app/globals.css"
+      }
+    },
+    "radius": {},
+    "shadows": {},
+    "motion": {},
+    "density": "unknown"
+  },
+  "components": {
+    "installed": [],
+    "preferredPrimitives": [],
+    "patterns": []
+  },
+  "constraints": {
+    "must": [],
+    "avoid": []
+  },
+  "decisions": [
+    "Preserve Hero.tsx and GlobalThreeD.tsx unchanged; add a separate perspective-projected matrix background with subdued cyan/silver code streams, mobile throttling, reduced-motion support and pause control.",
+    "Replace the conceptual SystemStudy copy with About in the same three-stage scroll geometry; preserve processor transforms. Raise matrix opacity approximately 20 percent. Present the five projects in an interactive 7/5 then 4/4/4 bento with full-card links, focus states and single-column mobile layout."
+  ],
+  "evidence": [
+    {
+      "fact": "design.colorMode:dark",
+      "source": "src/app/globals.css"
+    },
+    {
+      "fact": "design.tokens",
+      "source": "src/app/globals.css"
+    },
+    {
+      "fact": "project.instructions",
+      "source": "AGENTS.md"
+    },
+    {
+      "fact": "project.instructions",
+      "source": "CLAUDE.md"
+    },
+    {
+      "fact": "project.stack:nextjs",
+      "source": "package.json"
+    },
+    {
+      "fact": "project.stack:react",
+      "source": "package.json"
+    },
+    {
+      "fact": "project.stack:tailwind-v4",
+      "source": "package.json"
+    }
+  ],
+  "generatedAt": "2026-09-11T05:42:05.534Z"
+}
